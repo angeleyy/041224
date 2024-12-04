@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/angeleyy/041224/041224
+          tags: ghcr.io/angeleyy/041224/041224:latest
 
       - name: Run a one-line script
         run: echo "Готово"
